@@ -3,13 +3,14 @@
 docker amazonlinux version1 image
 use docker-compose
 
-need `id_rsa.pub`
+need   
+`id_rsa.pub`
 
-build
+build  
 `docker-compose build`
 
-run
+run  
 `docker-compose up -d`
 
-ssh
+ssh  
 `ssh -i <id_rsa> ec2-user@localhost -p 2022`
